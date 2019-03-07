@@ -1,7 +1,7 @@
 # docker-sonarqube-mobile-ci
 Dockerized SonarQube for mobile projects and CI+CD pipelines - Android (Java, Kotlin), iOS (Swift)
 
-This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains the Dockerfile of the [dpal/docker-sonarqube-mobile-ci](https://hub.docker.com/r/dpal/docker-sonarqube-mobile-ci/) image, built on [official SonarQube](https://github.com/SonarSource/docker-sonarqube) image, extended with plugins recommendend for native mobile apps.
+This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains the Dockerfile of the [dpal/docker-sonarqube-mobile-ci](https://hub.docker.com/r/dpal/docker-sonarqube-mobile-ci/) image, built on [official SonarQube](https://github.com/SonarSource/docker-sonarqube) image, extended with plugins recommended for native mobile apps.
 
 ### Common plugins
 
@@ -28,7 +28,7 @@ This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains
 ### Prerequisites
 
 * SonarScanner
-* Android/iOS project to analyize
+* Android/iOS project to analyze
 * Install prerequisites of [Backelite/sonar-swift](https://github.com/Backelite/sonar-swift#prerequisites)
 
 ### Pull image
@@ -50,7 +50,7 @@ docker build -t dpal/docker-sonarqube-mobile-ci github.com/paldom/docker-sonarqu
 Here's an example how to run this docker container:
 
 ```sh
-docker run -d --name sonarqube -p 9000:9000 sonarqube
+docker run -d --name sonarqube -p 9000:9000 dpal/docker-sonarqube-mobile-ci
 ```
 
 For advanced usage and more details see [official guide](https://hub.docker.com/_/sonarqube).
