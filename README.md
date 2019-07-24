@@ -10,6 +10,7 @@ This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains
 - sonar-checkstyle
 - sonar-pmd
 - sonar-findbugs
+- sonar-jacoco-plugin
 
 ### Android plugin
 

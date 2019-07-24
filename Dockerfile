@@ -12,6 +12,7 @@ RUN wget -P /opt/sonarqube/extensions/plugins/ https://binaries.sonarsource.com/
 RUN wget -P /opt/sonarqube/extensions/plugins/ https://github.com/checkstyle/sonar-checkstyle/releases/download/4.17/checkstyle-sonar-plugin-4.17.jar
 RUN wget -P /opt/sonarqube/extensions/plugins/ https://github.com/jensgerdes/sonar-pmd/releases/download/3.1.3/sonar-pmd-plugin-3.1.3.jar
 RUN wget -P /opt/sonarqube/extensions/plugins/ https://github.com/spotbugs/sonar-findbugs/releases/download/3.9.2/sonar-findbugs-plugin-3.9.2.jar
+RUN wget -P /opt/sonarqube/extensions/plugins/ https://binaries.sonarsource.com/Distribution/sonar-jacoco-plugin/sonar-jacoco-plugin-1.0.2.475.jar
 
 ## Android
 
