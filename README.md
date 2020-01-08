@@ -5,6 +5,7 @@ This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains
 
 ### Common plugins
 
+- sonarqube-community-branch-plugin
 - sonar-scm-git-plugin
 - sonar-github-plugin
 - sonar-checkstyle
@@ -14,6 +15,7 @@ This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains
 
 ### Android plugin
 
+*Note: sonar-android plugin is no longer supported, requires sonarqube 7.1. Default Kotlin plugin is used instead.*
 - [sonar-android](https://github.com/ofields/sonar-android)
 
 ### Kotlin plugin
