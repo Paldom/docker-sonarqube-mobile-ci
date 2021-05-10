@@ -6,25 +6,27 @@ This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains
 ### Common plugins
 
 - sonarqube-community-branch-plugin
-- sonar-scm-git-plugin
-- sonar-github-plugin
 - sonar-checkstyle
 - sonar-pmd
 - sonar-findbugs
-- sonar-jacoco-plugin
+- sonar-detekt
+- sonar-swift
+- sonar-yaml
+- mutation-analysis-plugin
 
 ### Android plugin
 
 *Note: sonar-android plugin is no longer supported, requires sonarqube 7.1. Default Kotlin plugin is used instead.*
 - [sonar-android](https://github.com/ofields/sonar-android)
 
-### Kotlin plugin
+### Kotlin plugins
 
-- [sonar-kotlin-plugin](https://docs.sonarqube.org/display/PLUG/SonarKotlin)
+*Note: sonar-kotlin is bundled from sonarqube version 8.5, but detekt plugins is still need to be installed*
+- [sonar-detekt](https://github.com/detekt/sonar-kotlin)
 
 ### Swfit plugin
 
-- [Backelite/sonar-swift](https://github.com/Backelite/sonar-swift)
+- [Backelite/sonar-swift](https://github.com/Idean/sonar-swift)
 
 ## Usage
 
@@ -32,7 +34,7 @@ This [repository](https://github.com/Paldom/docker-sonarqube-mobile-ci) contains
 
 * SonarScanner
 * Android/iOS project to analyze
-* Install prerequisites of [Backelite/sonar-swift](https://github.com/Backelite/sonar-swift#prerequisites)
+* Install prerequisites of [Backelite/sonar-swift](https://github.com/Idean/sonar-swift#prerequisites)
 
 ### Pull image
 
